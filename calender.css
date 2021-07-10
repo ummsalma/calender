@@ -1,0 +1,53 @@
+body{
+
+}
+
+.calender{
+    position:relative;
+    left: 80px;
+    display: grid;
+    grid-gap: 20px;
+    column-gap: 25px;
+    border-radius: 25px;
+    
+    border:5px solid silver;
+   grid-column: (7,1fr);
+    background-color: rgba(215, 228, 142, 0.589);
+    color: floralwhite;
+    font-weight: 700;
+    font-size: 3em;
+grid-template-columns: repeat(7,1fr);
+padding: 20px;
+width: 1000px;
+height: 700px;
+
+}
+/* .date{ */
+/* margin: 5px; */
+/* font-size: 500px; */
+/* border:2px solid skyblue; */
+/* display: flex; */
+/* } */
+.date,.day{
+    display: flex;
+    justify-content: center;
+border: 1px solid whitesmoke;
+border-radius: 1px;
+align-items: center;
+background-color: lightseagreen;
+border-radius: 25px;
+}
+.other-mont{
+    background-color: lightskyblue;
+}
+/* .date:hover.date{width: 3em;
+    height: em;
+
+} */
+.day{
+    background-color: rgb(158, 112, 243);
+    
+}
+.fri{
+    background-color: rgb(211, 3, 3);
+}
